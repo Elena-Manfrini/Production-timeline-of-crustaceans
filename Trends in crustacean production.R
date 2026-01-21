@@ -8,7 +8,7 @@ library(dplyr)
 
 # Set the working directory where data and figures will be stored
 
-setwd("~/These-Elena/Elena/These_Elena/2024-2025/09_Opinion_Asa/2nd_Submission_JofAppEcology/Data_Aquaculture-production")
+setwd("~/.../Data_Aquaculture-production")
 
 ## 1. Download Excel file from Git hub
 
@@ -51,3 +51,4 @@ year_totals_df %>%
   geom_point(shape=21, color="black", fill="#69b3a2", size=3) +
   theme(axis.text = element_text(angle = 90)) +
   ggtitle("Crustacean production worldwide")
+
